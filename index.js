@@ -7,6 +7,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
+
 //?Middle wair
 app.use(cors({ origin: '*' }))
 app.use(bodyParser.json());
